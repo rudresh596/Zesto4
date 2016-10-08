@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Zesto</string>
+    <string name="title_activity_kfc">KFC</string>
+    <string name="title_activity_main_page">Zesto</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_info">info</string>
+    <string name="title_activity_manu">manu</string>
+    <string name="title_activity_findstore">findstore</string>
+    <string name="title_activity_orderlist">orderlist</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_location">location</string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Create</item>
+        <item>Read</item>
+        <item>Help</item>
+    </string-array>
+    <string name="title_activity_rest_in">rest_in</string>
+    <string name="search">search anything</string>
+    <string name="title_activity_gpstracker">Map</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="get_location">Get Location</string>
+    <string name="disconnect">Disconnect Service</string>
+    <string name="connect">Connect Service</string>
+    <string name="title_activity_mac_d">MacD</string>
+    <string name="title_activity_pizza_hut">PizzaHut</string>
+    <string name="title_activity_domino">Domino</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_list">list</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tab1">Tab1</string>
+    <string name="title_activity_tab2">Tab2</string>
+    <string name="title_activity_tab3">Tab3</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_mc_tab1">McTab1</string>
+    <string name="title_activity_mc_tab2">McTab2</string>
+    <string name="title_activity_mc_tab3">McTab3</string>
+    <string name="title_activity_nav_header_main">nav_header_main</string>
+    <string name="title_activity_kfcopen">kfcopen</string>
+    <string name="title_activity_mcopen">mcopen</string>
+    <string name="title_activity_kfc_tab1">KfcTab1</string>
+    <string name="title_activity_kfc_tab2">KfcTab2</string>
+    <string name="title_activity_orders">Orders</string>
+    <string name="title_activity_kf_tab3">Map</string>
+    <string name="title_activity_kfc_locaton">Map</string>
+    <string name="title_activity_test">test</string>
+    <string name="GPSAlertDialogTitle">Enable Location Acces</string>
+    <string name="GPSAlertDialogMessage">Turn on GPS</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_camera">camera</string>
+    <string name="title_activity_navheader">navheader</string>
+    <string name="title_activity_burger">Burger</string>
+    <string name="title_activity_kfcfragments">KFCFragments</string>
+    <string name="title_activity_mc_location">McLocation</string>
+    <string name="title_activity_mcd">MCD</string>
+    <string name="title_activity_mac_tab2">MacTab2</string>
+    <string name="title_activity_checkout">Checkout</string>
+
+</resources>

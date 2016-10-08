@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tab1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="50sp"
+    tools:context="com.example.rudra.zesto.Tab1$PlaceholderFragment">
+
+<Button
+    android:id="@+id/conf"
+    android:layout_width="match_parent"
+    android:layout_height="35sp"
+    android:background="@color/colorAccent"
+    android:text="CONFIRM"
+    android:layout_marginLeft="20sp"
+    android:layout_marginBottom="5sp"
+    android:layout_marginRight="20sp"
+    android:layout_marginTop="520sp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50sp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:background="@drawable/chcksn"/>
+
+    <TextView
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="90sp"
+        android:layout_width="150sp"
+        android:layout_height="30sp"
+        android:textColor="@color/ColorPrimary"
+        android:textStyle="bold"
+        android:text="Chicken Snacker"/>
+        <TextView
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="150sp"
+            android:layout_height="30sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:text="Rs.200"/>
+    <EditText
+        android:id="@+id/et_menu1"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:text="1"
+        android:hint="Nos"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginLeft="220sp"
+        android:layout_marginTop="10sp" />
+
+        <ToggleButton
+        android:id="@+id/submit_menu1"
+        android:layout_marginLeft="290sp"
+        android:layout_width="70sp"
+        android:layout_height="50sp"
+        android:background="@drawable/abc"
+        android:textOn=""
+        android:textOff=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp">
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@drawable/chickinbox"/>
+
+        <TextView
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="100sp"
+            android:layout_height="30sp"
+            android:textColor="@color/ColorPrimary"
+            android:textStyle="bold"
+            android:text="Chicken In Box"/>
+        <TextView
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="150sp"
+            android:layout_height="30sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:text="Rs.250"/>
+        <EditText
+            android:id="@+id/et_menu2"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:text="1"
+            android:hint="Nos"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginLeft="220sp"
+            android:layout_marginTop="10sp" />
+        <ToggleButton
+            android:id="@+id/submit_menu2"
+            android:layout_marginLeft="290sp"
+            android:layout_width="70sp"
+            android:layout_height="50sp"
+            android:background="@drawable/abc"
+            android:textOn=""
+            android:textOff=""
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160sp">
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@drawable/chizza"/>
+
+        <TextView
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="100sp"
+            android:layout_height="30sp"
+            android:textColor="@color/ColorPrimary"
+            android:textStyle="bold"
+            android:text="Chizza"/>
+        <TextView
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="150sp"
+            android:layout_height="30sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:text="Rs.100"/>
+        <EditText
+            android:id="@+id/et_menu3"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:text="1"
+            android:hint="Nos"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginLeft="220sp"
+            android:layout_marginTop="10sp" />
+        <ToggleButton
+            android:id="@+id/submit_menu3"
+            android:layout_marginLeft="290sp"
+            android:layout_width="70sp"
+            android:layout_height="50sp"
+            android:background="@drawable/abc"
+            android:textOn=""
+            android:textOff=""
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240sp">
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@drawable/hotnsaucy"/>
+
+        <TextView
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="100sp"
+            android:layout_height="30sp"
+            android:textColor="@color/ColorPrimary"
+            android:textStyle="bold"
+            android:text="Hot N Saucy"/>
+        <TextView
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="150sp"
+            android:layout_height="30sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:text="Rs.300"/>
+        <EditText
+            android:id="@+id/et_menu4"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:text="1"
+            android:hint="Nos"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginLeft="220sp"
+            android:layout_marginTop="10sp" />
+        <ToggleButton
+            android:id="@+id/submit_menu4"
+            android:layout_marginLeft="290sp"
+            android:layout_width="70sp"
+            android:layout_height="50sp"
+            android:background="@drawable/abc"
+            android:textOn=""
+            android:textOff=""
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320sp">
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@drawable/hotwings"/>
+
+        <TextView
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="100sp"
+            android:layout_height="30sp"
+            android:textColor="@color/ColorPrimary"
+            android:textStyle="bold"
+            android:text="Hot Wings"/>
+        <TextView
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="150sp"
+            android:layout_height="30sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:text="Rs.360"/>
+        <EditText
+            android:id="@+id/et_menu5"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:text="1"
+            android:hint="Nos"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginLeft="220sp"
+            android:layout_marginTop="10sp" />
+        <ToggleButton
+            android:id="@+id/submit_menu5"
+            android:layout_marginLeft="290sp"
+            android:layout_width="70sp"
+            android:layout_height="50sp"
+            android:background="@drawable/abc"
+            android:textOn=""
+            android:textOff=""
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400sp">
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@drawable/mealbox"/>
+
+        <TextView
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="100sp"
+            android:layout_height="30sp"
+            android:textColor="@color/ColorPrimary"
+            android:textStyle="bold"
+            android:text="Meal Box"/>
+        <TextView
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="150sp"
+            android:layout_height="30sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:text="Rs.300"/>
+        <EditText
+            android:id="@+id/et_menu6"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:text="1"
+            android:hint="Nos"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginLeft="220sp"
+            android:layout_marginTop="10sp" />
+        <ToggleButton
+            android:id="@+id/submit_menu6"
+            android:layout_marginLeft="290sp"
+            android:layout_width="70sp"
+            android:layout_height="50sp"
+            android:background="@drawable/abc"
+            android:textOn=""
+            android:textOff=""
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480sp">
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@drawable/ricebowlz"/>
+
+        <TextView
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="100sp"
+            android:layout_height="30sp"
+            android:textColor="@color/ColorPrimary"
+            android:textStyle="bold"
+            android:text="Rice Bowlz"/>
+        <TextView
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="150sp"
+            android:layout_height="30sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:text="Rs.390"/>
+        <EditText
+            android:id="@+id/et_menu7"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:text="1"
+            android:hint="Nos"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginLeft="220sp"
+            android:layout_marginTop="10sp" />
+        <ToggleButton
+            android:id="@+id/submit_menu7"
+            android:layout_marginLeft="290sp"
+            android:layout_width="70sp"
+            android:layout_height="50sp"
+            android:background="@drawable/abc"
+            android:textOn=""
+            android:textOff=""
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560sp">
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@drawable/vegbowlz"/>
+
+        <TextView
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="100sp"
+            android:layout_height="30sp"
+            android:textColor="@color/ColorPrimary"
+            android:textStyle="bold"
+            android:text="Veg Bowlz"/>
+        <TextView
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="90sp"
+            android:layout_width="150sp"
+            android:layout_height="30sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:text="Rs.390"/>
+        <EditText
+            android:id="@+id/et_menu8"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:text="1"
+            android:hint="Nos"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginLeft="220sp"
+            android:layout_marginTop="10sp" />
+        <ToggleButton
+            android:id="@+id/submit_menu8"
+            android:layout_marginLeft="290sp"
+            android:layout_width="70sp"
+            android:layout_height="50sp"
+            android:background="@drawable/abc"
+            android:textOn=""
+            android:textOff=""
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="640sp">
+                <ImageView
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:background="@drawable/hotncrispy"/>
+
+                <TextView
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="90sp"
+                    android:layout_width="100sp"
+                    android:layout_height="30sp"
+                    android:textColor="@color/ColorPrimary"
+                    android:textStyle="bold"
+                    android:text="Hot N Crispy"/>
+                <TextView
+                    android:layout_marginTop="30sp"
+                    android:layout_marginLeft="90sp"
+                    android:layout_width="150sp"
+                    android:layout_height="30sp"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textStyle="bold"
+                    android:text="Rs.590"/>
+                <EditText
+                    android:id="@+id/et_menu9"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:text="1"
+                    android:hint="Nos"
+                    android:background="@android:color/holo_blue_dark"
+                    android:layout_marginLeft="220sp"
+                    android:layout_marginTop="10sp" />
+                <ToggleButton
+                    android:id="@+id/submit_menu9"
+                    android:layout_marginLeft="290sp"
+                    android:layout_width="70sp"
+                    android:layout_height="50sp"
+                    android:background="@drawable/abc"
+                    android:textOn=""
+                    android:textOff=""
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+</ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout >

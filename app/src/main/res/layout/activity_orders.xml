@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bill Summery"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="70dp" />
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL"
+        android:visibility="gone"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginLeft="130sp"
+        android:layout_below="@+id/displayName" />
+
+
+
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150sp"
+        android:text="Checkout"
+        android:textColor="@color/ColorPrimary"
+        android:background="@drawable/btn"
+        android:layout_marginTop="80sp"/>
+
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay Online"
+        android:textColor="@color/ColorPrimary"
+        android:layout_alignBottom="@+id/displayName"
+        android:layout_alignRight="@+id/displayName"
+        android:background="@drawable/btn"
+        android:layout_gravity="start|bottom"/>
+
+
+
+    <TextView
+        android:layout_marginTop="110sp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/displayName"
+        android:text=""
+        android:layout_marginStart="80sp"
+        android:textColor="@color/place_autocomplete_search_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/cod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COD"
+        android:layout_alignBottom="@+id/displayName"
+        android:layout_alignLeft="@+id/displayName"
+        android:textColor="@color/ColorPrimary"
+        android:background="@drawable/btn"/>
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/typeRest"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_width="280sp"
+        android:layout_height="40sp"
+        android:hint="search restaurants here" />
+    <Button
+        android:id="@+id/clickRest"
+        android:layout_width="90sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="280sp"
+        android:layout_marginTop="5sp"
+        android:text="Search"
+        android:background="@drawable/butstyle"/>
+    <fragment
+        android:layout_marginTop="45sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        tools:context="com.example.rudra.zesto.kfcLocaton" />
+</RelativeLayout>

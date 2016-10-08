@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rudra.zesto">
+
+    <uses-permission android:name="com.example.rudra.zesto.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KFC"
+            android:label="@string/title_activity_kfc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Orders"
+            android:label="@string/title_activity_orders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".kfcLocaton"
+            android:label="@string/title_activity_kfc_locaton" />
+        <activity
+            android:name=".camera"
+            android:label="@string/title_activity_camera"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navheader"
+            android:label="@string/title_activity_navheader"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Burger"
+            android:label="@string/title_activity_burger"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".McLocation"
+            android:label="@string/title_activity_mc_location"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MCD"
+            android:label="@string/title_activity_mcd"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".McTab1"
+            android:label="@string/title_activity_mc_tab1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".McTab2"
+            android:label="@string/title_activity_mac_tab2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".McTab3"
+            android:label="@string/title_activity_mc_tab3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Checkout"
+            android:label="@string/title_activity_checkout"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

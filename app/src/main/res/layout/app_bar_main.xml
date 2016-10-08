@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.rudra.zesto.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:title="Zesto"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#ff8533"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="75sp"
+        android:layout_marginRight="30sp"
+        android:layout_gravity="top|end"
+        app:backgroundTint="#fff"
+        android:src="@drawable/locaticon" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="135sp"
+        android:layout_marginRight="30sp"
+        android:layout_gravity="top|end"
+        app:backgroundTint="#fff"
+        android:src="@drawable/locaticon" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="195sp"
+        android:layout_marginRight="30sp"
+        android:layout_gravity="top|end"
+        app:backgroundTint="#fff"
+        android:src="@drawable/locaticon" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab4"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="255sp"
+        android:layout_marginRight="30sp"
+        android:layout_gravity="top|end"
+        app:backgroundTint="#fff"
+        android:src="@drawable/locaticon" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab5"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="320sp"
+        android:layout_marginRight="30sp"
+        android:layout_gravity="top|end"
+        app:backgroundTint="#fff"
+        android:src="@drawable/locaticon" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab6"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="380sp"
+        android:layout_marginRight="30sp"
+        android:layout_gravity="top|end"
+        app:backgroundTint="#fff"
+        android:src="@drawable/locaticon" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab7"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="442sp"
+        android:layout_marginRight="30sp"
+        android:layout_gravity="top|end"
+        app:backgroundTint="#fff"
+        android:src="@drawable/locaticon" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab8"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="505sp"
+        android:layout_marginRight="30sp"
+        android:layout_gravity="top|end"
+        app:backgroundTint="#fff"
+        android:src="@drawable/locaticon" />
+
+    <include layout="@layout/activity_list" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>
